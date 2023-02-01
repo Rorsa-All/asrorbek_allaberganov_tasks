@@ -1,7 +1,7 @@
 
 <?php
 $title = "First Ex";
-
+$title1 = "PHP is interesting" ;
 include "header.php"?>
     <h1>Write a simple PHP script to print your information (Name and your groupid).</h1>
 <?php
@@ -19,5 +19,6 @@ echo "Hello World! My nam is \"Asror\" "
 <?php 
 echo date("d.m.Y") 
 ?>
-<h1></h1>
+<h1>$title = "PHP is interesting”</h1>
+<h1> <?php echo $title1 ?> </h1>
 <?php include "footer.php"?>
