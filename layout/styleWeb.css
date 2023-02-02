@@ -10,7 +10,6 @@ body
 
 /* left navbar */
 
-/* end of left navbar */
 .navbar
 {
     display: flex;
@@ -22,6 +21,10 @@ body
     url("critters.png") ;
 
 }
+/* end of left navbar */
+
+
+/* midle */
 @media (min-width: 992px)
 {
 .container, .container-lg, .container-md, .container-sm {
@@ -52,3 +55,17 @@ body
     }
 
 }
+/* midle end */
+
+/* footer */
+
+footer
+{
+    background-image: url("https://wp-s.ru/wallpapers/15/12/560718515011519/staraya-stena-ot-shtukaturennaya-i-vykrashennaya.jpg");
+    background-position: center center;
+    min-height: calc(108vh - 50px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* end footer */
