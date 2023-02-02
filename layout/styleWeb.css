@@ -1,0 +1,54 @@
+body
+{
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613033734_54-p-oranzhevie-foni-v-stime-72.jpg);
+    background-position: center center;
+    min-height: calc(108vh - 50px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* left navbar */
+
+/* end of left navbar */
+.navbar
+{
+    display: flex;
+    position: fixed;
+    width: 90%;
+
+    padding-right: 2%;
+    background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
+    url("critters.png") ;
+
+}
+@media (min-width: 992px)
+{
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 90%;
+}
+}
+@media (min-width: 768px)
+{
+.container, .container-md, .container-sm {
+    max-width: 90%;
+}
+}
+@media (min-width: 576px)
+{
+    .container, .container-sm {
+        max-width: 90%;
+    }
+}
+@media (max-width: 576px)
+{
+    .col-sm-3
+    {
+        margin-top: 10%;
+    }
+    .navbar
+    {
+        width: 100%;
+    }
+
+}
