@@ -11,7 +11,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="styleWeb.css">
+  <link rel="stylesheet" href="../static/styleWeb.css">
   <style>
     a,
     .nav-link,
@@ -44,7 +44,7 @@
                 <a class="nav-link" href="aboutus.php">About US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contactus.php">Contact</a>
+                <a class="nav-link" href="variable.php">Variable</a>
               </li>
 
             </ul>

@@ -5,17 +5,16 @@ body
     min-height: calc(108vh - 50px);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: rgb(255, 255, 255) !important;
 }
 
-/* left navbar */
+/*   navbar */
 
 .navbar
 {
     display: flex;
     position: fixed;
     width: 90%;
-
     padding-right: 2%;
     background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
     url("critters.png") ;
@@ -63,9 +62,15 @@ footer
 {
     background-image: url("https://wp-s.ru/wallpapers/15/12/560718515011519/staraya-stena-ot-shtukaturennaya-i-vykrashennaya.jpg");
     background-position: center center;
-    min-height: calc(108vh - 50px);
+    /* min-height: calc(35vh - 50px); */
     background-repeat: no-repeat;
     background-size: cover;
 }
+table
+{
+    color: white !important;
+}
+
+
 
 /* end footer */

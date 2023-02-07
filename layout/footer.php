@@ -1,10 +1,13 @@
 </div>
 </div>
 <div class="row">
-  <footer  color: white;">
+  <footer>
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright
+    <?php 
+        echo "Content last changed on " .date("l, d F Y h:ia", filemtime(basename($_SERVER['SCRIPT_NAME'])));
+        ?>
     </div>
     <!-- Copyright -->
 
