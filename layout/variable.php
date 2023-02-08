@@ -1,8 +1,8 @@
 <?php
-$title = "ex3";
+$title = "Exercises 3";
 include "header.php" ?>
 
-<h3>Ex3</h3>
+<h3>Exercises 3</h3>
 <h4>
     Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using
     tag: Hello …., You are welcome to my site. (Form Tutorial: https://www.youtube.com/watch?v=nLPlDHrsyYA
@@ -20,11 +20,8 @@ include "header.php" ?>
           <input class="form-control" type="date" name="bdate" required placeholder="birth"><br>
         </div>
           <div class="col">
-              color: <input type="color" name="color">
-              </div>
-              <div class="col">
-                </div>
-
+              <input type="color" name="color">
+              </div>    
                 <input type="submit" value="submit">
         </div>
     </div>

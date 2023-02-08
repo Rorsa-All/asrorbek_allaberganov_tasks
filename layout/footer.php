@@ -4,9 +4,11 @@
   <footer>
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright
-    <?php 
-        echo "Content last changed on " .date("l, d F Y h:ia", filemtime(basename($_SERVER['SCRIPT_NAME'])));
+    <div class="footer-copyright text-center py-3">© 2020 Copyright <br>
+    <?php
+    $fname = basename($_SERVER['PHP_SELF']);
+    $last_modified = filemtime($fname);
+        echo "Last changed on " .date('l jS \o\f F Y, h:i:s A', $last_modified);
         ?>
     </div>
     <!-- Copyright -->
