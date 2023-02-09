@@ -66,5 +66,24 @@ echo "<h3> eligible for voting </h3> ";
 elseif($age<18)
 echo "<h3> is not eligible for voting </h3>"
 ?>
+<h4>
+In task 5, you used $_SERVER['HTTP_USER_AGENT']; to get the browser name. 
+Use Switch statement with strops function to print the name of the browser as below: 
+If someone is using Chrome it should print, you are using Goolge Chrome….
+</h4>
 
+<?php
+$user = $_SERVER['HTTP_USER_AGENT'];
+
+switch (( strpos($user,'Edge')||strpos($user,'Chrome')) ==true)
+{
+    // case "Edge": echo "this is microsoft edge"; break;
+    case "Chrome": echo "this is Chrome"; break;
+    case "Firefox": echo "this is microsoft Firefox"; break;
+    default: echo "this is microsoft unknown browser"; break;
+
+}
+
+
+?>
 <?php include "footer.php" ?>
