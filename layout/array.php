@@ -40,9 +40,10 @@ foreach($courses3 as $key=>$val) {
 <?php
 error_reporting(E_ERROR | E_PARSE);
  $courses4=array("php", "html", "javascript", "cms", "project");
- $courses4 = strtoupper($courses4);
- foreach($courses3 as $key=>$val) {
-    echo "courses[" . $key . "]=" . $val . "<br>";
+
+ foreach($courses4 as $key=>$val) {
+    $courses4 = strtoupper($val);
+    echo "courses[" . $key . "]=" . $courses4 . "<br>";
 }
 ?>
 
