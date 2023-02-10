@@ -49,6 +49,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="array.php">Exercise 5</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../crud/create.php">Exercise 6</a>
+              </li>
 
             </ul>
             
