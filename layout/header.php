@@ -38,7 +38,7 @@
                 <a class="nav-link" aria-current="index.php" href="">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="ex1.php">Exercise 1</a>
+                <a class="nav-link" href="../layout/ex1.php">Exercise 1</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../layout/controlflow.php">Exercise 4</a>
