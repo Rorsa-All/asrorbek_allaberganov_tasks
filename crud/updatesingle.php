@@ -32,7 +32,7 @@ if(isset($_POST['update']))
     $fname=$_POST['fname'];
     $lname=$_POST['lname'];
     $query=mysqli_query($conn,"UPDATE studentinfo set fname='$fname',
-    lname='$lname' where id='$a");
+    lname='$lname' where id='$a' ");
     if($query)
     {
         echo"<h3>Your info is updated successfully</h3>";
