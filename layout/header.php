@@ -63,6 +63,8 @@
     <div class="row" style="margin-top: 10%; margin-bottom: 10px; margin-right: 5px;">
       <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
         <h3>List of Tasks</h3>
-        some thing here
+        <div class="nav-item">
+                <a class="nav-link" href="../crud/read.php">ff</a>
+            </div>
       </div>
       <div class="col-sm-9">
