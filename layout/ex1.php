@@ -14,7 +14,9 @@ echo "BBCA22A";
 <?php
 echo "Hello World! My nam is \"Asror\" ";
 ?>
-
+<script>
+    document.write("Hello world this is JavaScript");
+   </script>
 <h3>3.3 Current Date</h3>
 <?php
 echo date("d.m.Y");
